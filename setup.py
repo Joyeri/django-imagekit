@@ -32,9 +32,11 @@ setup(
     include_package_data=True,
     tests_require=[
         'beautifulsoup4==4.1.3',
-        'nose==1.2.1',
-        'nose-progressive==1.3',
         'django-nose==1.1',
+        'flake8==1.7.0',
+        'nose-progressive==1.3',
+        'nose==1.2.1',
+        'tox==1.4.2',
     ],
     install_requires=[
         'django-appconf>=0.5',
